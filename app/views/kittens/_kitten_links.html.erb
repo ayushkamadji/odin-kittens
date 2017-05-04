@@ -1,0 +1,4 @@
+<p>
+<%= link_to "Edit", edit_kitten_path(@kitten) %> |
+<%= link_to "Murder", kitten_path(@kitten), method: :delete, data: {confirm: "Meow?"} %>
+</p>
